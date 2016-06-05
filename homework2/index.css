@@ -1,0 +1,27 @@
+
+	h1 
+	{
+	font-size: 250%;
+ 	text-align: center;
+	}
+
+	.imgCenter {text-align: center;}
+
+	p
+	{
+	font-size: 200%;
+	padding-left: 180px;
+	}
+
+	hr
+	{
+	text-align: center;
+	size: 100%;
+	width: 90%;
+	}
+
+	.text {
+		font-size: 200%;
+		padding-left: 210px;
+		padding-bottom: 10px;
+		}
