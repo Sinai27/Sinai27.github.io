@@ -1,0 +1,135 @@
+*{
+	margin: 0;	/* Обнуление стилей */
+	padding: 0;
+}
+
+body{
+	background: #f9f9f9;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+.wrapper{
+	margin: 0 auto;
+	padding: 0 46px;
+	width: 968px;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+	box-shadow: 0px 0px 4px 0px rgba(153,153,153,1);
+}
+
+/* == HEADER == */
+.header{
+	padding-top: 50px;
+	margin-bottom: 40px;
+}
+.menu{
+	margin-top: 40px;
+	position: relative;		/* Возвращает элемен ты мню в горизонтальное положение */
+	overflow: hidden;
+		/* Градиент для менюшки */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e5e5e+0,444343+100 */
+	background: #5e5e5e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5e5e5e 0%, #444343 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #5e5e5e 0%,#444343 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #5e5e5e 0%,#444343 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.menu li{
+	list-style: none;	/* Распологает элементы меню горизонтально */
+	float: left;
+}
+.menu a{
+	display: block;			/* Делает элементы верхнего меню блочными */	/*  */
+	color: #fff;			/* Цвет шрифта */
+	line-height: 40px;		/* Высота линии меню */
+	text-decoration: none;  /* Отключает подчеркивание ссылки меню */
+	padding: 0 40px;		/* Внутренний отступ между ссылками меню */
+	font-size: 15px;		/* Размер шрифта */
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+.menu a:hover{
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	/* Градиент для меню при наведении мыши */
+	background: #4a4a4a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4a4a4a 0%, #2c2c2c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #4a4a4a 0%,#2c2c2c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #4a4a4a 0%,#2c2c2c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2c2c2c',GradientType=0 ); /* IE6-9 */
+}
+
+/* == CONTENT == */
+.content{
+	position: relative;
+	overflow: hidden;
+}
+
+.sidebar{
+	float: left;
+	width: 240px;	
+}
+.sidebar-menu{
+	border: 1px solid #c8c8c8;
+}
+.sidebar-menu li{
+	border-top: 1px solid #c8c8c8;
+}
+.sidebar-menu li:first-child{	/* Убирает лишний border вверху */
+	border: none;
+}
+.sidebar-menu a{
+	padding-left: 20px;
+	line-height: 38px;
+	color: #656363;
+	text-decoration: none;
+	transition: 0.2s all;
+}
+.sidebar-menu a:hover{
+	background: #f9f9f9;
+	color: #2c2c2c;
+	padding-left: 35px; /* Сдвигает ссылку при наведениии курсора */
+}
+.product{
+	float: right;
+	width: 680px;
+}
+.product-image{
+	padding: 40px 0;
+	border: 1px solid #c8c8c8;
+	text-align: center;
+}
+.product-description{
+	padding: 30px 22px 0 22px;
+	line-height: 21px;
+	font-size: 13px;
+	color: #2c2c2c;
+}
+
+
+/* == FOOTER == */
+.footer{
+	padding: 50px 0;
+}
+.footer-menu{
+	position: relative;
+	overflow: hidden;
+	background: #e1e1e1;
+}
+.footer-menu a{	
+	display: block;
+	color: #2c2c2c;			
+	padding: 0 50px;			
+	text-decoration: none; 	
+	font-size: 13px;
+}
+.footer-menu li{
+	float:left;
+	list-style: none;
+	line-height: 40px;
+}
+.footer-menu .copyrights{
+	float: right;
+	padding-right: 26px;
+}
+
